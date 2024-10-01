@@ -59,7 +59,7 @@ $RECYCLE.BIN/
 
 
 
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -409,3 +409,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Add by Author
+.vscode/settings.json
