@@ -9,6 +9,8 @@ djangorestframework = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
 django-phonenumber-field = "*"
+phonenumbers = "*"
+django-filter = "*"
 
 [dev-packages]
 
