@@ -410,6 +410,67 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Add by Author
+#######################
+###  Add by Author  ###
+#######################
 .vscode/settings.json
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+.DS_Store
+*.bak
+*.tmp
+*.temp
+
+# Project specific
+logs/*
+!logs/.gitkeep
+infrastructure/terraform/.terraform/
+
+
+
+
+/myapp
