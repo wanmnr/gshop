@@ -23,6 +23,8 @@ django-waffle = "*"
 sentry-sdk = "*"
 django-phonenumber-field = "*"
 phonenumbers = "*"
+djangorestframework-simplejwt = "*"
+django-encrypted-fields = "*"
 
 [dev-packages]
 pytest = "*"
