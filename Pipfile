@@ -1,19 +1,53 @@
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
+name = "gshop"
 
 [packages]
 django = "==4.2"
 djangorestframework = "*"
+django-cors-headers = "*"
+django-environ = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
+celery = "*"
+redis = "*"
+channels = "*"
+graphene-django = "*"
+django-filter = "*"
+pillow = "*"
+drf-spectacular = "*"
+django-redis = "*"
+django-storages = "*"
+django-waffle = "*"
+sentry-sdk = "*"
 django-phonenumber-field = "*"
 phonenumbers = "*"
-django-filter = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+mypy = "*"
+factory-boy = "*"
+faker = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+ipython = "*"
+pytest-mock = "*"
+bandit = "*"
+safety = "*"
 
 [requires]
 python_version = "3.9"
 python_full_version = "3.9.6"
+
+[scripts]
+server = "python manage.py runserver"
+test = "pytest"
+lint = "flake8"
+format = "black ."
+sort-imports = "isort ."
